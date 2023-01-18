@@ -182,3 +182,5 @@ function ManageLicenses(identifier, incomingLicenses)
         MySQL.query.await('UPDATE `players` SET `metadata` = @metadata WHERE citizenid = @citizenid', {['@metadata'] = json.encode(result), ['@citizenid'] = identifier})
     end
 end
+
+

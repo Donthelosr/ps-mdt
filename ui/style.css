@@ -114,17 +114,6 @@ input::-webkit-inner-spin-button {
     display: none;
 }
 
-.weapons-page-container {
-    background-color: var(--color-9);
-    border-radius: 15px;
-    position: absolute; 
-    width: 96.5%;
-    height: 96.5%;
-    left: 2.0%;
-    top: 1.5%;
-    display: none;
-}
-
 .stafflogs-page-container  {
     background-color: var(--color-9);
     border-radius: 15px;
@@ -252,7 +241,7 @@ input::-webkit-inner-spin-button {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -378,7 +367,7 @@ input::-webkit-inner-spin-button {
     flex-direction: column;
     height: 100%;
     width: 50vh;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 8px;
     margin-left: 10px;
     user-select: none;
@@ -394,7 +383,7 @@ input::-webkit-inner-spin-button {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
     width: 83.5%;
@@ -504,7 +493,7 @@ span.bulletin-item-info[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -671,7 +660,9 @@ span.bulletin-item-info[contenteditable]:empty::before {
 .unit-police {
     background-color: #093095;
 }
-
+.unit-bcso {
+    background-color: #af7f18;
+}
 .unit-ems {
     background-color: #950909;
 }
@@ -864,7 +855,7 @@ a {
     flex-direction: column;
     height: 74.7vh;
     width: 50vh;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -879,7 +870,7 @@ a {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -897,7 +888,7 @@ a {
     padding-bottom: 10px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -1066,7 +1057,7 @@ a {
     flex-direction: row;
     width: 95%;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
 }
 
@@ -1237,7 +1228,7 @@ a {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -1290,7 +1281,7 @@ a {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
     width: 84%;
@@ -1306,7 +1297,7 @@ a {
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 0px;
     width: 10%;
@@ -1389,7 +1380,7 @@ span.tag-input[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -1442,7 +1433,7 @@ span.tag-input[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -1495,7 +1486,7 @@ span.tag-input[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
     width: 84%;
@@ -1511,7 +1502,7 @@ span.tag-input[contenteditable]:empty::before {
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 0px;
     width: 10%;
@@ -1557,7 +1548,7 @@ span.tag-input[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -1723,10 +1714,6 @@ span.tag-input[contenteditable]:empty::before {
     background-color: #099517;
 }
 
-.copy-image-link:hover {
-    background-color: #099517;
-}
-
 .gallery-upload-input {
     background-color: var(--color-3);
     color: white;
@@ -1734,7 +1721,7 @@ span.tag-input[contenteditable]:empty::before {
     padding-bottom: 10px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -1782,7 +1769,7 @@ span.tag-input[contenteditable]:empty::before {
     flex-direction: column;
     height: 74.7vh;
     width: 50vh;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -1795,7 +1782,7 @@ span.tag-input[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -1813,7 +1800,7 @@ span.tag-input[contenteditable]:empty::before {
     padding-bottom: 10px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -2597,7 +2584,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 0px;
     width: 10%;
@@ -2761,7 +2748,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
     margin: auto;
     display: flex;
     flex-direction: column;
-    z-index: 9998;
+    z-index: 9999;
     display: none;
 }
 
@@ -2897,7 +2884,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
     flex-direction: column;
     height: 74.7vh;
     width: 50vh;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -2910,7 +2897,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -2928,7 +2915,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
     padding-bottom: 10px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -3014,7 +3001,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
     width: 84%;
@@ -3183,7 +3170,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
     background-color: #8f1b1b;
     margin: auto;
     margin-left: 5px;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     color: white;
     text-align: center;
@@ -3214,7 +3201,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
     flex-direction: column;
     height: 95.7%;
     width: 50vh;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 10px;
     margin-right: 15px;
 }
@@ -3264,7 +3251,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 0px;
     width: 10%;
@@ -3361,7 +3348,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
     background-color: var(--color-10);
     margin: auto;
     margin-left: 5px;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     color: white;
     text-align: center;
@@ -3402,7 +3389,7 @@ span.civilians-incident-input[contenteditable]:empty::before {
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 0px;
     width: 10%;
@@ -3471,7 +3458,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 0px;
     width: 10%;
@@ -3489,7 +3476,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     padding-bottom: 10px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -3584,7 +3571,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -3602,7 +3589,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     padding-bottom: 10px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -3797,7 +3784,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     background-color: var(--color-10);
     margin: auto;
     margin-left: 5px;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     color: white;
     text-align: center;
@@ -3817,7 +3804,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     background-color: var(--color-10);
     margin: auto;
     margin-left: 5px;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     color: white;
     text-align: center;
@@ -3891,7 +3878,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 0px;
     width: 84%;
@@ -4061,7 +4048,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     background-color: #8f1b1b;
     margin: auto;
     margin-left: 5px;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     color: white;
     text-align: center;
@@ -4128,7 +4115,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     flex-direction: column;
     height: 95.7%;
     width: 50vh;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 10px;
     margin-right: 15px;
 }
@@ -4178,7 +4165,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 0px;
     width: 10%;
@@ -4208,7 +4195,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 0px;
     width: 10%;
@@ -4226,7 +4213,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     padding-bottom: 10px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -4272,7 +4259,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 0px;
     width: 10%;
@@ -4302,7 +4289,7 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 0px;
     width: 10%;
@@ -4473,7 +4460,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     flex-direction: column;
     height: 74.7vh;
     width: 50%;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -4486,7 +4473,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     background-color: var(--color-10);
     margin: auto;
     margin-left: 5px;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     color: white;
     text-align: center;
@@ -4506,7 +4493,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -4524,7 +4511,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     padding-bottom: 10px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -4578,7 +4565,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     background-color: #1b8f25;
     margin: auto;
     margin-left: 5px;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     color: white;
     text-align: center;
@@ -4682,7 +4669,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     flex-direction: row;
     width: 95%;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
 }
 
@@ -4713,7 +4700,6 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     margin-top: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0);
-    width: 80%;
 }
 
 .vehicle-info-owner {
@@ -4731,7 +4717,6 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     margin-top: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0);
-    width: 80%;
 }
 
 .vehicle-info-class {
@@ -4749,7 +4734,6 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     margin-top: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0);
-    width: 80%;
 }
 
 .vehicle-info-model {
@@ -4767,7 +4751,6 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     margin-top: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0);
-    width: 80%;
 }
 
 .vehicle-info-imageurl {
@@ -4785,7 +4768,6 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     margin-top: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0);
-    width: 80%;
 }
 
 .vehicle-info-icon {
@@ -4826,7 +4808,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     padding-bottom: 5px;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     width: 95%;
     align-items: center;
@@ -4889,7 +4871,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     margin-bottom: 0px;
     border: none;
     outline: none;
-    min-height: 26.9vh;
+    min-height: 30.9vh;
     resize: none;
     background-color: var(--color-5);
     color: white;
@@ -5106,7 +5088,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     margin: auto;
     display: flex;
     flex-direction: column;
-    z-index: 9998;
+    z-index: 9999;
     user-select: none;
 }
 
@@ -5344,7 +5326,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     margin: auto;
     display: flex;
     flex-direction: column;
-    z-index: 9998;
+    z-index: 9999;
     border: .45vh solid white;
 }
 
@@ -5416,7 +5398,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     margin: auto;
     display: flex;
     flex-direction: column;
-    z-index: 9998;
+    z-index: 9999;
     border: .45vh solid white;
 }
 
@@ -5517,15 +5499,15 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     color: black;   
 }
 
-.orange-penal-code {
+.orange-penis-code {
     background-color: #D77A0D;
 }
 
-.green-penal-code {
+.green-penis-code {
     background-color: #0B9509;
 }
 
-.red-penal-code {
+.red-penis-code {
     background-color: #950909;
 }
 
@@ -5667,7 +5649,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     background-color: var(--color-10);
     margin: auto;
     margin-left: 5px;
-    margin-top: 10px;
+     margin-top: 10px;
     margin-bottom: 0px;
     color: white;
     text-align: center;
@@ -5694,7 +5676,7 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
     margin: auto;
     display: flex;
     flex-direction: column;
-    z-index: 9998;
+    z-index: 9999;
     overflow: auto;
 }
 
@@ -5935,489 +5917,4 @@ span.civilian-tag-reports-input[contenteditable]:empty::before {
 
 .cams-items:hover {
     background-color: var(--color-3);
-}
-
-.weapons-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
-    display: flex;
-    flex-direction: column;
-    height: 74.7vh;
-    width: 50%;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.weapons-search-title {
-    background-color: var(--color-4);
-    color: white;
-    font-size: 18px;
-    font-weight: bolder;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    width: 95%;
-    align-items: center;
-    user-select: none;
-}
-
-.weapons-search-title:hover {
-    background-color: var(--color-3);
-}
-
-.weapons-search-input {
-    background-color: var(--color-3);
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    width: 95%;
-    align-items: center;
-    user-select: none;
-    display: none;
-}
-
-#weapons-search-input {
-    outline: none;
-    border: none;
-    width: 95%;
-    color: white;
-    font-size: 15px;
-    background-color: rgba(0, 0, 0, 0);
-    margin: auto;
-}
-
-#weapons-search-input::placeholder {
-    color: white;
-}
-
-.weapons-items {
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-    margin: auto;
-    margin-top: 10px;
-    width: 95%;
-    height: 100%;
-    margin-bottom: 15px;
-}
-
-.weapon-information-container {
-    background-color: var(--color-1);
-    border: 2px solid var(--color-3);
-    display: flex;
-    flex-direction: column;
-    height: 74.7vh;
-    width: 50%;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.weapon-information-new {
-    width: 13.7%;
-    font-size: 15px;
-    font-weight: lighter;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    background-color: #8f1b1b;
-    margin: auto;
-    margin-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    color: white;
-    text-align: center;
-    user-select: none;
-    display: block;
-}
-
-.weapon-information-new:hover {
-    background-color: #aa1c1c;
-}
-
-.weapon-information-save {
-    width: 13.7%;
-    font-size: 15px;
-    font-weight: lighter;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    background-color: #1b8f25;
-    margin: auto;
-    margin-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    color: white;
-    text-align: center;
-    user-select: none;
-    display: block;
-}
-
-.weapon-information-save:hover {
-    background-color: #1caa28;
-}
-
-.weapon-information-title {
-    background-color: var(--color-4);
-    color: white;
-    font-size: 18px;
-    font-weight: bolder;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    text-align: center;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    width: 81%;
-    /* width: 66%; */
-    align-items: center;
-    user-select: none;
-}
-
-.weapon-info-stuff {
-    display: flex;
-    flex-direction: row;
-    width: 95%;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.weapon-info-image {
-    width: 444px;
-    height: 269px;
-    object-fit: cover;
-}
-
-.weapon-info-imageurl {
-    color: white;
-    margin-left: 10px;
-    font-size: 15px;
-    user-select: none;
-}
-
-.weapon-info-imageurl-input {
-    border: none;
-    outline: none;
-    margin-left: 2.5px;
-    font-size: 16px;
-    margin-top: 5px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-    width: 80%;
-}
-
-.weapon-info-inner-container {
-    display: flex;
-    flex-direction: column;
-    width: 55%;
-}
-
-.weapon-info-serial {
-    color: white;
-    margin-left: 10px;
-    font-size: 15px;
-    user-select: none;
-}
-
-.weapon-info-serial-input {
-    border: none;
-    outline: none;
-    margin-left: 2.5px;
-    font-size: 16px;
-    margin-top: 5px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-    width: 80%;
-}
-
-.weapon-info-icon {
-    color: white;
-    font-size: 16px;
-    margin-left: 10px
-}
-
-.weapon-info-line {
-    background-color: var(--color-3);
-    height: 2px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-.weapon-info-model {
-    color: white;
-    margin-left: 10px;
-    font-size: 15px;
-    user-select: none;
-}
-
-.weapon-info-model-input {
-    border: none;
-    outline: none;
-    margin-left: 2.5px;
-    font-size: 16px;
-    margin-top: 5px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-    width: 80%;
-}
-
-.weapon-info-owner {
-    color: white;
-    margin-left: 10px;
-    font-size: 15px;
-    user-select: none;
-}
-
-.weapon-info-owner-input {
-    border: none;
-    outline: none;
-    margin-left: 2.5px;
-    font-size: 16px;
-    margin-top: 5px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-    width: 80%;
-}
-
-.weapon-info-class {
-    color: white;
-    margin-left: 10px;
-    font-size: 15px;
-    user-select: none;
-}
-
-.weapon-info-class-input {
-    border: none;
-    outline: none;
-    margin-left: 2.5px;
-    font-size: 16px;
-    margin-top: 5px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-    width: 80%;
-}
-
-.weapon-info-imageurl {
-    color: white;
-    margin-left: 10px;
-    font-size: 15px;
-    user-select: none;
-}
-
-.weapon-info-imageurl-input {
-    border: none;
-    outline: none;
-    margin-left: 2.5px;
-    font-size: 16px;
-    margin-top: 5px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.weapon-info-content {
-    width: 93%;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    border: none;
-    outline: none;
-    min-height: 30.9vh;
-    resize: none;
-    background-color: var(--color-5);
-    color: white;
-    font-size: 16px;
-    padding: 10px;
-}
-
-.weapons-item-title {
-    font-size: 16px;
-    font-weight: lighter;
-    color: white;
-    padding-top: 2px;
-}
-
-.weapons-image {
-    width: 7vh;
-    height: 7vh;
-    margin-left: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
-    object-fit: cover;
-}
-
-.weapons-item-title {
-    font-size: 16px;
-    font-weight: lighter;
-    color: white;
-    padding-top: 2px;
-}
-
-.weapons-bottom-info {
-    display: flex;
-    margin: auto;
-    width: 100%;
-}
-
-.weapons-id {
-    color: white;
-    font-size: 13px;
-}
-
-.weapons-item {
-    background-color: var(--color-5);
-    width: 100%;
-    height: 9vh;
-    margin: auto;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    display: flex;
-    user-select: none;
-
-}
-
-.weapons-item:hover {
-    background-color: var(--color-3);
-}
-
-.weapons-image {
-    width: 7vh;
-    height: 7vh;
-    margin-left: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
-    object-fit: cover;
-}
-
-.weapons-item-title {
-    font-size: 16px;
-    font-weight: lighter;
-    color: white;
-    padding-top: 2px;
-}
-
-.vehicle-info-points {
-    color: white;
-    margin-left: 10px;
-    font-size: 15px;
-    user-select: none;
-    margin-top: 5px;
-}
-
-input[type="range"].vehicle-info-points-input {
-    border: none;
-    outline: none;
-    margin-left: 2.5px;
-    font-size: 16px;
-    margin-top: 5px;
-    color: white;
-    width: 80%;
-}
-
-input[type="range"].vehicle-info-points-input::-moz-range-thumb {
-    box-shadow: none;
-    border: 2px solid grey;
-    height: 16px;
-    width: 16px;
-    border-radius: 16px;
-    background: white;
-}
-
-input[type="range"].vehicle-info-points-input::-moz-range-track {
-    width: 100%;
-    height: 2px;
-    box-shadow: none;
-    background: var(--color-8);
-    border-radius: 0px;
-    border: 0px;
-}
-
-/* Charges Hover */
-
-.ccontextmenu {
-    position: absolute;
-    width: fit-content;
-    padding: 2px;
-    margin: 0;
-    border: 1px solid var(--color-3);
-    background: var(--color-5);
-    z-index: 100;
-    border-radius: 3px;
-    box-shadow: 1px 1px 4px rgba(0,0,0,.2);
-    opacity: 0;
-    transform: translate(0, 15px) scale(.95);
-    transition: transform 0.1s ease-out, opacity 0.1s ease-out;
-    pointer-events: none;
-}
-
-.ccontextmenu-item {
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    /* white-space: nowrap; */
-    max-width: 34ch;
-    word-wrap:break-word;
-}
-
-.ccontextmenu-text { 
-    display: block;
-    color: white;
-    font-size: 13px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    /* white-space: nowrap; */
-    padding: 6px 8px;
-    border-radius: 3px;
-    max-width: 34ch;
-    word-wrap:break-word;
-}
-
-.ccontextmenu-text {
-    outline: 0 none;
-    text-decoration: none;
-}
-
-.ccontextmenu-text .fa {
-    position: absolute;
-    left: 8px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.ccontextmenu-item-disabled {
-    opacity: .5;
-    pointer-events: none;
-}
-
-.ccontextmenu-item-disabled .ccontextmenu-text {
-    cursor: default;
-}
-
-.ccontextmenu-item-submenu::after {
-    content: "";
-    position: absolute;
-    right: 6px;
-    top: 50%;
-    transform: translateY(-50%);
-    border: 5px solid transparent;
-    border-left-color: #808080; 
-}
-
-.ccontextmenu-item-submenu:hover::after {
-    border-left-color: #fff;
-}
-
-.ccontextmenu-show,
-.ccontextmenu-item:hover > .ccontextmenu {
-    opacity: 1;
-    transform: translate(0, 0) scale(1);
-    pointer-events: auto;
-    z-index: 9999;
 }
